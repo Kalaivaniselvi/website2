@@ -1,0 +1,35 @@
+#head3{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+}
+#head3 div img{
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}
+#head3 div h2{
+    margin-left: 35px;
+}
+.footer6 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+.footer6 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}
+#head3 div img:hover{
+    background-color:black;
+}
+
+#head3 h2{
+    font-size: 20px;
+}

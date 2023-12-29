@@ -1,0 +1,58 @@
+.contact1{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+#contact{
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 40px;
+    border-bottom: 6px solid yellow ;
+    width: 100px; 
+}
+.contact1 div{
+    padding: 25px;
+    width: 400px;
+}
+.contact1 div input{
+    padding: 20px;
+}
+#send{
+    border: 2px solid black;
+    width: 150px;
+    border-radius: 7px;
+    margin-left: 740px;
+}
+#send:hover{
+    background-color: yellow;
+}
+.footer3 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 70px;
+    margin-top: 50px;
+
+}
+.footer3 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}
+#location{
+    margin-top: -500px;
+    display: grid;
+    grid-template-rows: 150px 150px 150px 150px;
+    margin-left: 100px;
+}
+ #icon1{
+    margin-left: -50px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+ }

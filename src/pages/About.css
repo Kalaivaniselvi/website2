@@ -1,0 +1,67 @@
+.about{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 20px;
+    background:linear-gradient(skyblue,white,yellow);
+    box-shadow: black;
+    
+    
+}
+.about p{
+   margin-left: 100px;
+}
+.about h1{
+    margin-left: 300px;
+}
+#service{
+    border: 2px solid black;
+    width: 150px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+#service:hover{
+    background-color: yellow;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 200px 100px 200px 100px 200px 100px 200px ;
+   text-align: center;
+   font-size: 55px;
+   margin-top: 80px;
+   padding: 40px;
+}
+#icongrid h1{
+   text-align: center;
+   padding: 30px;
+   font-size: 35px;
+}
+.icons h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+#icongrid{
+    color: white;
+    background-color: rgb(1, 1, 16);
+    margin-top: 60px;
+}
+.icons div{
+    margin-left: 30px;
+}
+.footer2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 70px;
+
+}
+.footer2 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}

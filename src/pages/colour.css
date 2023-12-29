@@ -1,0 +1,26 @@
+.colour img{
+    margin-left: 550px;
+    margin-top: 70px;
+    height: 500px;
+    width: 500px;
+}
+#range img{
+    width: 100%;
+    height: 500px;
+}
+.footer4 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 70px;
+    
+
+}
+.footer4 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}

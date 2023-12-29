@@ -1,0 +1,52 @@
+.Specification{
+ display: grid;
+ grid-template-columns: 250px 250px 250px;
+ margin-top: 50px;
+ font-size: 20px;
+ margin-left: 60px;
+}
+.Specification div{
+    border: 2px solid rgb(235, 230, 230);
+   margin-left: 20px;
+   padding: 20px;
+   background-color: rgb(7, 117, 147);
+   color: white;
+   font-weight: 200;
+}
+#c1{
+    background-color: green;
+}
+.Specification div:hover{
+    opacity: 0.5;
+}
+#s1{
+    padding: 30px;
+    width: 750px;
+    font-size: 18px;
+    background:linear-gradient(green,white,rgb(7, 117, 147));
+    margin-left: 510px;
+    margin-top: 50px;
+}
+#coil{
+    height: 300px;
+    width: 500px;
+    margin-top: -900px;
+    
+}
+.footer5 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 100px;
+    margin-top: -5px;
+    
+
+}
+.footer5 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}

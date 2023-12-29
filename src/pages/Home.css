@@ -1,0 +1,170 @@
+#roof1{
+  height: 700px;
+  width: 100%;
+  margin-top: -4px;
+
+}
+.roof p{
+    font-size: 60px;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.roof h2{
+    margin-left: 700px;
+    margin-top: 50px;
+    color: black;
+    background-color:yellow;
+    border: 2px solid black;
+    position: relative;
+    width: 160px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.roof h2:hover{
+    color:yellow;
+    background-color:black;
+}
+.roof h1{
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+#about{
+    font-size: 30px;
+    background-color: gray;
+    text-align: center;
+    margin-top: 60px;
+    padding: 150px;
+}
+#menu {
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: yellow;
+    width: 230px;
+    padding: 10px;
+   
+}
+#description{
+    margin-left: 370px;
+    text-align: center;
+    width: 600px;
+    margin-top: -80px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    padding: 20px;
+}
+#project{
+    
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 10px;
+}
+.grid_1 div img{
+   width: 220px;
+   height: 250px;
+   padding: 20px;
+   
+}
+.grid_1{
+    display: flex;
+    grid-template-columns: 280px 280px 280px 280px 280px 280px;
+    text-align: center;
+    margin-left: 30px;
+   padding: 40px;
+   justify-content: center;
+}
+.grid_1 div{
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 600px 600px ;
+    justify-content: center;
+}
+.footer div{
+background-color:black;
+margin-left:50px;
+color:white;
+padding: 40px;
+font-size: 16px;
+}
+#topic{
+    text-align: center;
+    margin-top: 60px;
+}
+#no div{
+    border-bottom: 6px solid yellow ;
+    width: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+ 
+}
+#no{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;}
+ #content{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    font-size: 30px; 
+    color: gray;
+    margin-top: 30px;
+ }
+#companies{
+    margin-left: 80px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 400px 150px 150px 150px 150px 150px;
+}
+.footer1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-top: 150px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 70px;
+
+}
+.footer1 h3{
+    border-bottom: 6px solid yellow ;
+    width: 100px;
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+}
+.grid div h1{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.grid div img{
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+}
+.grid div h1:hover{
+    background-color:black;
+    color: white;
+}
+.grid h1{
+    text-align: center;
+}
+.grid div:hover{
+    border: 2px solid black;
+}
+/* .grid_1  h4:hover{
+    background-color: black;
+    color: white;
+} */
+.grid_1 h4{
+    padding: 10px;
+}
